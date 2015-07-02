@@ -16,24 +16,20 @@ public class Lista4 {
     /**
      * @param args the command line arguments
      */
+    //Questão6
+    public boolean Q6 (int x,int vetorA){
+      return;  
+    }
+            
     public static void main(String[] args) {
-        int x, y = 0;
-        int vetor[];
+        int x;
+        int vetorA[] = null;
         Scanner E = new Scanner(System.in);
-        System.out.println("Digite um valor para o tamanho do seu vetor");
+        System.out.println("Digite um valor para o tamanho do seu vetor:");
         x = E.nextInt();
-        vetor = new int[x];
-        System.out.println("Digite valores para o seu vetor");
-
-        for (int i = 0; i < x; i++) {
-            vetor[i] = E.nextInt();
+        System.out.println("Dgite valores para o vetor:");
+        for (int i=0; i<x; i++){
+            vetorA[i]=E.nextInt();
         }
-
-        for (int i = 0; i < x; i++) {
-            if (vetor[i] < 0) {
-                y++;
-            }
-        }
-        System.out.println("A quantidade de números negativos é:" + y);
     }
 }
