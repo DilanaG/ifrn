@@ -18,7 +18,7 @@ public class Lista4 {
      */
     //Questão6
     public boolean Q6 (int x,int vetorA){
-      return;  
+      return true;  
     }
             
     public static void main(String[] args) {
