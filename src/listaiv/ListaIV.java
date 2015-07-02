@@ -18,18 +18,19 @@ public class ListaIV {
     
     public static void main(String[] args) {
         Scanner E = new Scanner(System.in);
-       int vetorA [];
+       int vetorA [] ;
        int y, x,z=0;
        System.out.println("Digite um número que irá preeencher seu array:");
        y = E.nextInt(); 
+       vetorA = new int[y];
         System.out.println("Digite um número:");
        x = E.nextInt();
         System.out.println("Digite os números que irão preencher seu array:");
        
-        for (int i=0; i<y; i++)
+        for (int i=0; i<y; i++) {
             z = E.nextInt();
             vetorA[i] = z; 
-        
+        }
         }
         }
        
